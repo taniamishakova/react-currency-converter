@@ -1,7 +1,7 @@
 import "./style.css";
 
 const Footer = ({ text }) => (
-    <footer class="footer">
+    <footer className="footer">
         {text}
     </footer>
 );
