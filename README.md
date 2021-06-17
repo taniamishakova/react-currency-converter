@@ -3,7 +3,7 @@
 ## Description
 
 This page was prepared for YouCode course, it is an online currency exchange, where you could easily calculate currency rate to another one.
-![preview site](https://github.com/taniamishakova/exchange/blob/main/image/Animation.gif)
+![preview site](https://github.com/taniamishakova/react-currency-converter/blob/main/public/Animation1.gif)
 
 ## Demo
  https://taniamishakova.github.io/react-currency-converter/
