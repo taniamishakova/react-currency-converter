@@ -6,7 +6,7 @@ This page was prepared for YouCode course, it is an online currency exchange, wh
 ![preview site](https://github.com/taniamishakova/exchange/blob/main/image/Animation.gif)
 
 ## Demo
- https://taniamishakova.github.io/exchange/
+ https://taniamishakova.github.io/react-currency-converter/
 
 ## Usage
  1. Please write a default amount in PLN 
