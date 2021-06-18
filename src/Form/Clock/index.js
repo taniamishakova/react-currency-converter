@@ -25,7 +25,7 @@ export const ShowCurrentDate = () => {
 
     return (
         <p className="date">
-            Dzisiaj jest {formattedDate}
+            {formattedDate}
         </p>
     );
 };
