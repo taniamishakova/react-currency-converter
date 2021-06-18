@@ -8,4 +8,8 @@ html {
 
 body {
   font-family: 'Lora', serif;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
