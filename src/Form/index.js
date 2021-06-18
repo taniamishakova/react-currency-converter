@@ -33,11 +33,11 @@ const Form = ({ currencies }) => {
     return (
         <form className="form" onSubmit={onFormSubmit} onReset={onFormReset}>
             <ShowCurrentDate />
-            <p className="form__paragraph">
-                Pola wymagane oznaczone są *
-            </p>
             <fieldset className="form__fieldset">
                 <legend className="form__legend">Przelicznik walut</legend>
+                <p className="form__paragraph">
+                    Pola wymagane *
+                </p>
                 <p>
                     <label>
                         <span className="form__labelText">Kwota w PLN*:</span>
