@@ -7,14 +7,12 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <>
-      <Container>
-        <Header title="Kalkulator walut online" />
-        <Form currencies={currencies} />
-        <Table currencies={currencies} />
-        <Footer text=" &copy; Tania Mishakova 2021" />
-      </Container>
-    </>
+    <Container>
+      <Header title="Kalkulator walut online" />
+      <Form currencies={currencies} />
+      <Table currencies={currencies} />
+      <Footer text=" &copy; Tania Mishakova 2021" />
+    </Container>
   );
 };
 
