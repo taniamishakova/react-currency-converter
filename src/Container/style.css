@@ -1,8 +1,5 @@
 .container {
-background-image: url("background.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0 auto;
-padding: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
 }
