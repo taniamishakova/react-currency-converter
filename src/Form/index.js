@@ -2,6 +2,7 @@ import "./style.css";
 import Select from "./Select";
 import Input from "./Input";
 import Result from "./Result";
+import { ShowCurrentDate } from "./Clock";
 import React, { useState } from 'react';
 
 
@@ -31,6 +32,7 @@ const Form = ({ currencies }) => {
 
     return (
         <form className="form" onSubmit={onFormSubmit} onReset={onFormReset}>
+            <ShowCurrentDate />
             <p className="form__paragraph">
                 Pola wymagane oznaczone są *
             </p>
