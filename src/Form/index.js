@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 
 const Form = ({ currencies }) => {
-    const [amount, setNewAmount] = useState("");
+    const [amount, setAmount] = useState("");
     const [selectedCurrency, setSelectedCurrency] = useState(currencies[0].id);
     const [result, setResult] = useState([]);
 
@@ -15,7 +15,7 @@ const Form = ({ currencies }) => {
     };
 
     const calculateResult = () => {
-        setResult([(amount / getCurrencyRate()).toFixed(2), selectedCurrency]);
+        setResult([(amount / getCurrencyRate()).toFixed(2), (" "), selectedCurrency]);
     };
 
     const onFormSubmit = (event) => {
@@ -25,7 +25,7 @@ const Form = ({ currencies }) => {
     };
 
     const onFormReset = () => {
-        setNewAmount("");
+        setAmount("");
         setResult("");
     };
 
@@ -41,7 +41,7 @@ const Form = ({ currencies }) => {
                         <span className="form__labelText">Kwota w PLN*:</span>
                         <Input
                             amount={amount}
-                            setNewAmount={setNewAmount}
+                            setAmount={setAmount}
                         />
                     </label>
                 </p>
