@@ -2,7 +2,6 @@ import "./style.css";
 import Select from "./Select";
 import Input from "./Input";
 import Result from "./Result";
-import { ShowCurrentDate } from "./Clock";
 import React, { useState } from 'react';
 
 
@@ -32,7 +31,6 @@ const Form = ({ currencies }) => {
 
     return (
         <form className="form" onSubmit={onFormSubmit} onReset={onFormReset}>
-            <ShowCurrentDate />
             <fieldset className="form__fieldset">
                 <legend className="form__legend">Przelicznik walut</legend>
                 <p className="form__paragraph">
